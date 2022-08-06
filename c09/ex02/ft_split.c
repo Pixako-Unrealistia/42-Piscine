@@ -107,17 +107,3 @@ char	**ft_split(char *str, char *charset)
 	}
 	return (words);
 }
-/*
-int	main(void)
-{
-	char *str = "Let blood, be our#sacrament!$to^all who sinned.";
-	char *charset = "!@#$%^&*()-=./, ";
-	
-	printf("String: '%s'\nCharset: '%s'\n", str ,charset);
-	char **hayasaka = ft_split(str, charset);
-	while (*hayasaka)
-	{
-		printf("'%s'\n", *hayasaka);
-		hayasaka++;
-	}
-}*/
